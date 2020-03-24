@@ -59,6 +59,7 @@ get( window.cf, 'preloaded.blocks', [] ).forEach( ( container ) => {
 			preview: getBlockSetting( 'preview' ),
 			innerBlocks: getBlockSetting( 'inner_blocks.enabled' ),
 			alignWide: true,
+			align: ['wide', 'full'],
 			anchor: false,
 			html: false
 		},
